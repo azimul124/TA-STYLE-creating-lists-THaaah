@@ -5,18 +5,323 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment Level 02</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b4a51b7317.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h2>ELEVATION</h2>
-      <nav>
-        <ul>
-          <li>home</li>
-          <li>pagelayouts</li>
-          <li>elements</li>
-        </ul>
-      </nav>
+    <header class="navbar">
+      <div class="container flex">
+        <a class="brand" href="#">ELEVATION</a>
+        <nav>
+          <ul class="flex">
+            <li><a href="#">home</a></li>
+            <li class="submenu-box">
+              <a href="#"> <i class="fas fa-chevron-down"></i>pagelayouts</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a href="#">Left Sidebar</a></li>
+                  <li><a href="#">Right Sidebar</a></li>
+                  <li><a href="#">No Sidebar</a></li>
+                  <li><a href="#">Submenu</a></li>
+                </ul>
+                <i class="fas fa-caret-up"></i>
+              </div>
+            </li>
+            <li><a href="#">elements</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-heading">lorem ipsum dolor</h1>
+          <h4 class="hero-subheading">Lorem ipsum dolor sit amet</h4>
+          <a class="btn btn-main" href="#">Magna Sed Ether</a>
+        </div>
+      </section>
+      <!-- Feature -->
+      <section class="feature padding">
+        <div class="container">
+          <header class="section-header">
+            <div class="flex justify-center">
+              <div class="line-container">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+              <h2 class="heading">Magna feugiat</h2>
+              <div class="line-container align-start">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+
+            <p class="sub-heading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              consequuntur dolores sit sunt ea vel quia, eos illum provident.
+              Aspernatur, nostrum exercitationem. Error non temporibus corporis
+              accusamus, ipsum corrupti esse.
+            </p>
+          </header>
+          <div class="flex">
+            <div class="col-1-3">
+              <div class="icon">
+                <i><i class="fas fa-user"></i></i>
+              </div>
+              <h3 class="col-heading">lorem ipsum</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolorem, quis ratione mollitia temporibus
+                tempora.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <div class="icon">
+                <i class="fas fa-tint"></i>
+              </div>
+              <h3 class="col-heading">nuns digins</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolorem, quis ratione mollitia temporibus
+                tempora.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <div class="icon">
+                <i class="fas fa-cog"></i>
+              </div>
+              <h3 class="col-heading">amet consectetur</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolorem, quis ratione mollitia temporibus
+                tempora.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service Section -->
+      <section class="service padding">
+        <div class="container">
+          <div class="flex justify-center">
+            <div class="line-container">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+            <h2 class="heading">maiores necessitatibus</h2>
+            <div class="line-container align-start">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+          </div>
+          <div class="flex service-wrapper wrap">
+            <div class="col-1-2">
+              <div class="icon">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <h3 class="col-heading">Omnis maiores</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolor sit amet consectetur adipisicing
+                elit. Omnis maiores necessitatibus dolorem, dolorem, quis
+                ratione mollitia temporibus tempora.
+              </p>
+            </div>
+            <div class="col-1-2">
+              <div class="icon">
+                <i class="fas fa-cog"></i>
+              </div>
+              <h3 class="col-heading">lorem tempsum</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolorem, quis ratione mollitia temporibus
+                tempora dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolorem,.
+              </p>
+            </div>
+            <div class="col-1-2">
+              <div class="icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3 class="col-heading">gravida narcidse</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolor sit amet consectetur adipisicing
+                elit. Omnis maiores necessitatibus dolorem, dolorem, quis
+                ratione mollitia temporibus tempora.
+              </p>
+            </div>
+            <div class="col-1-2">
+              <div class="icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <h3 class="col-heading">ligula magna</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolorem, quis ratione mollitia temporibus
+                tempora dolor sit amet consectetur adipisicing elit. Omnis
+                maiores necessitatibus dolorem,.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Blog -->
+      <section class="blog padding">
+        <div class="container">
+          <header class="section-header">
+            <div class="flex justify-center">
+              <div class="line-container">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+              <h2 class="heading">amet consectetur</h2>
+              <div class="line-container align-start">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </header>
+          <div class="flex">
+            <div class="col-1-3">
+              <img src="block-Bhaabz/assets/pic01.jpg" alt="Camera " />
+              <h3 class="col-heading">ltempora ipsum</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                quis ratione mollitia temporibus .
+              </p>
+              <a class="btn btn-secondary" href="#"> learn more</a>
+            </div>
+            <div class="col-1-3">
+              <img src="block-Bhaabz/assets/pic02.jpg" alt="Typewriter" />
+              <h3 class="col-heading">etium enturdum</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                quis ratione mollitia temporibus.
+              </p>
+              <a class="btn btn-secondary" href="#"> learn more</a>
+            </div>
+            <div class="col-1-3">
+              <img src="block-Bhaabz/assets/pic03.jpg" alt="Mobile " />
+              <h3 class="col-heading">varius faucisna</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                , quis ratione mollitia temporibus .
+              </p>
+              <a class="btn btn-secondary" href="#"> learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="contact padding">
+        <div class="container">
+          <div class="flex justify-center">
+            <div class="line-container">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+            <h2 class="heading">contact</h2>
+            <div class="line-container align-start">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+          </div>
+          <div class="flex contact-wrapper">
+            <form class="form" action="">
+              <input class="form-control" type="text" placeholder="Name" />
+              <input class="form-control" type="email" placeholder="Email" />
+              <textarea
+                class="form-control"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <div>
+                <button class="btn btn-main">Send</button>
+                <button class="btn btn-secondary">reset</button>
+              </div>
+            </form>
+            <ul class="contact-info">
+              <li>
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <address>
+                  Alt Campus, Thehr, Kangra, <br />
+                  Dharamshala, Himachal Pradesh, <br />
+                  Pin-176218
+                </address>
+              </li>
+              <li>
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <p>(000) 000 1234</p>
+              </li>
+              <li>
+                <div class="contact-icon">
+                  <i class="far fa-envelope"></i>
+                </div>
+                <p>information@untitled.tld</p>
+              </li>
+              <li>
+                <div class="contact-icon twitter">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <p>twitter.com/untitled-tld</p>
+              </li>
+              <li>
+                <div class="contact-icon facebook">
+                  <i class="fab fa-facebook"></i>
+                </div>
+                <p>facebook.com/untitled-tld</p>
+              </li>
+              <li>
+                <div class="contact-icon linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <p>linkedin.com/untitled-tld</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer padding">
+      <div class="container">
+        <nav>
+          <ul class="flex footer-list">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright">
+          <small>&copy; Untitled. All rights reserved</small>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
